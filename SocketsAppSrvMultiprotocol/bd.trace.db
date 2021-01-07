@@ -1,0 +1,4 @@
+2020-12-29 19:53:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "AUTH" non trouvée
+Table "AUTH" not found; SQL statement:
+select login from AUTH where login = ? AND passwd = ? [42102-200]
