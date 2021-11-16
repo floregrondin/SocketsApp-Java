@@ -34,7 +34,6 @@ public class JsonLogger {
 	 * @param LOGGER_CMD_CLIENT_SRVAS nom du logger
 	 */
 	private JsonLogger(JsonLogger log, String LOGGER_CMD_CLIENT_SRVAS, Socket s) {
-		JsonLogger.log = getLogger();
 		try {
 			this.s = new Socket("localhost", port);
 		} catch (UnknownHostException e) {
